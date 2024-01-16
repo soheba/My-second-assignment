@@ -63,6 +63,12 @@
   align-items: center;
   flex-direction: column;
 }
+@media screen and (width <= 600px) {
+  .banner-gradient {
+    display: grid;
+  }
+}
+
 .explore {
   color: #fff;
 
@@ -99,6 +105,11 @@
   justify-content: space-between;
   width: 1480px;
 }
+@media screen and (width <= 600px) {
+  .points-part {
+    display: grid;
+  }
+}
 .Read {
   background-color: orangered;
   color: white;
@@ -113,6 +124,12 @@
   line-height: normal;
   margin-left: 10px;
 }
+@media screen and (width <= 600px) {
+  .Read {
+    display: grid;
+  }
+}
+
 .destination {
   justify-content: center;
   text-align: center;
@@ -179,8 +196,18 @@
 .Image {
   display: flex;
 }
+@media screen and (width <= 600px) {
+  .Image {
+    display: grid;
+  }
+}
 .hotel_map {
   display: flex;
+}
+@media screen and (width <= 600px) {
+  .hotel_map {
+    display: grid;
+  }
 }
 .price_tag {
   text-align: center;
@@ -193,6 +220,12 @@
   flex-shrink: 0;
   margin-left: 550px;
 }
+@media screen and (width <= 600px) {
+  .price_tag {
+    display: grid;
+  }
+}
+
 .deals {
   text-align: center;
   color: #131318;
@@ -354,6 +387,11 @@
   flex-shrink: 0;
   margin-left: 700px;
 }
+@media screen and (width <= 600px) {
+  .button_package {
+    display: grid;
+  }
+}
 .place_offer {
   display: grid;
 }
@@ -367,6 +405,12 @@
   gap: 10px;
   border-radius: 8px;
   color: white;
+  margin-top: 10px;
+}
+@media screen and (width <= 600px) {
+  .button {
+    display: grid;
+  }
 }
 .package_button {
   width: 174px;
@@ -381,6 +425,11 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+@media screen and (width <= 600px) {
+  .package_button {
+    display: grid;
+  }
 }
 .orange {
   color: orangered;
@@ -400,8 +449,15 @@
   font-weight: 800;
   line-height: normal;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 90px;
+  flex-shrink: 0;
 }
+@media screen and (width <= 600px) {
+  .see {
+    display: grid;
+  }
+}
+
 .simple {
   width: 500px;
   justify-content: space-between;
@@ -421,6 +477,12 @@
   justify-content: space-around;
   margin-top: 100px;
 }
+@media screen and (width <= 600px) {
+  .simple_video {
+    display: grid;
+  }
+}
+
 .simple_text {
   width: 448px;
   color: #131318;
@@ -461,6 +523,12 @@
   line-height: normal;
   text-align: ;
 }
+@media screen and (width <= 600px) {
+  .newsletter {
+    display: grid;
+  }
+}
+
 .rec {
   margin-left: 900px;
   margin-top: -470px;
@@ -520,4 +588,40 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media screen and (width <= 600px) {
+  .child {
+    display: grid;
+  }
+}
+.newsletter-input {
+  display: grid;
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+@media screen and (width <= 600px) {
+  .newsletter-input {
+    display: grid;
+  }
+}
+.inputfield {
+  background-color: #ff5400;
+  color: white;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 20px;
+  margin-top: 5px;
+}
+/* .inputfield1 {
+  background-color: #ff5400;
+  color: white;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 20px;
+  margin-top: 5px;
+} */
+.wrapper {
+  padding: 50px;
 }
