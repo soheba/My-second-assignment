@@ -1,9 +1,15 @@
 .up {
-  margin-left: 1150px;
-  margin-top: 20px;
+  margin-left: 1100px;
+  margin-top: -40px;
   border: none;
-
   justify-content: space-between;
+  border-radius: 0;
+  background-color: #ffffff;
+  display: inline-flex;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
 }
 .home {
   color: orange;
@@ -346,4 +352,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
+}
+.social {
+  margin-top: 100px;
+}
+.rights {
+  margin-top: 150px;
 }
