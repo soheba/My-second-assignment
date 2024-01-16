@@ -11,6 +11,7 @@
   align-items: center;
   gap: 44px;
 }
+
 .home {
   color: orange;
 }
@@ -601,11 +602,7 @@
   flex-shrink: 0;
   border-radius: 8px;
 }
-@media screen and (width <= 600px) {
-  .newsletter-input {
-    display: grid;
-  }
-}
+
 .inputfield {
   background-color: #ff5400;
   color: white;
