@@ -17,12 +17,26 @@
 .world {
   margin-left: 250px;
   margin-top: -40px;
+
+  color: #131318;
+
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .img {
   margin-left: 150px;
 }
 .span {
   color: tomato;
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .first {
   margin-left: 200px;
@@ -48,6 +62,24 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.explore {
+  color: #fff;
+
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.travel_text {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 .points {
   width: 500px;
@@ -84,13 +116,18 @@
 .destination {
   justify-content: center;
   text-align: center;
-  color: rgba(19, 19, 24, 0.7);
+  color: rgba(0, 0, 0, 0.862);
   text-align: center;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  margin-bottom: 50px;
+  margin-top: -80px;
+}
+.destination_text {
+  margin-top: 20px;
 }
 .vertical-collage {
   margin-left: 250px;
@@ -103,16 +140,26 @@
 }
 .why {
   text-align: center;
+  color: #131318;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 100px;
 }
 .choose {
   color: rgba(19, 19, 24, 0.7);
-
   text-align: center;
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .hotel {
   margin-left: 200px;
@@ -148,6 +195,42 @@
 }
 .deals {
   text-align: center;
+  color: #131318;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.discounts {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.frame {
+  /* display: inline-flex; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sat {
+  margin-top: -20px;
+}
+.day {
+  color: #5a5a5d;
+
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .satorini {
   margin-left: 150px;
@@ -255,6 +338,22 @@
   font-weight: 400;
   line-height: 26px;
 }
+.button_package {
+  color: #fff;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 8px;
+  background: #ff5400;
+  width: 210px;
+  height: 52px;
+  flex-shrink: 0;
+  margin-left: 700px;
+}
 .place_offer {
   display: grid;
 }
@@ -268,6 +367,20 @@
   gap: 10px;
   border-radius: 8px;
   color: white;
+}
+.package_button {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .orange {
   color: orangered;
@@ -306,6 +419,32 @@
 .simple_video {
   display: flex;
   justify-content: space-around;
+  margin-top: 100px;
+}
+.simple_text {
+  width: 448px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
+  margin-top: -100px;
+}
+.see_more {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 15px;
 }
 .newsletter {
   width: 580px;
@@ -358,4 +497,27 @@
 }
 .rights {
   margin-top: 150px;
+}
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-10.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+  margin-left: 1050px;
+  margin-bottom: -800px;
+  margin-top: -200px;
+  color: #fff;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
